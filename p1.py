@@ -36,15 +36,18 @@ h=Human()
 f1(h)
     
 '''ANOTHER METHOD:-
-
+def f1(obj):
+    f1(obj)
+    
 i=[Duck(),Dog(),Goat(),Human()]
 for obj in i:
     f1(obj)
 '''
+
 '''NEXT METHOD:-
 
-def f(obj):
-    f(obj)
+def f1(obj):
+    f1(obj)
 
 d=Duck()
 f1(d) 
